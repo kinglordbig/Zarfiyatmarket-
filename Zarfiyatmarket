@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ظرفیت مارکت</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .game {
+            display: inline-block;
+            margin: 20px;
+            padding: 15px;
+            border: 2px solid #ffcc00;
+            border-radius: 10px;
+            background-color: #333;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 5px;
+        }
+        select, button {
+            margin-top: 10px;
+            padding: 5px;
+        }
+        .telegram {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ظرفیت مارکت</h1>
+        <div class="game">
+            <img src="gta-v.jpg" alt="GTA V">
+            <h2>GTA V</h2>
+            <select>
+                <option>PS5 - ظرفیت 2: 699,000 تومان</option>
+                <option>PS4 - ظرفیت 2: 500,000 تومان</option>
+            </select>
+            <button>خرید</button>
+        </div>
+        <div class="game">
+            <img src="spiderman-2.jpg" alt="Marvel's Spider-Man 2">
+            <h2>Marvel's Spider-Man 2</h2>
+            <select>
+                <option>PS5 - ظرفیت 2: 1,500,000 تومان</option>
+                <option>PS5 - ظرفیت 3: 990,000 تومان</option>
+            </select>
+            <button>خرید</button>
+        </div>
+        <div class="telegram">
+            <p>برای خرید و پشتیبانی به تلگرام پیام دهید:</p>
+            <a href="https://t.me/yourtelegram" target="_blank">
+                <img src="telegram-logo.png" alt="Telegram" width="50">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
